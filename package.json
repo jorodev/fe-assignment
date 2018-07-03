@@ -1,0 +1,29 @@
+{
+  "name": "fe-assignment",
+  "version": "1.0.0",
+  "description": "A simple Front-End assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorodev/fe-assignment.git"
+  },
+  "author": "Georgi Georgiev (jorodev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jorodev/fe-assignment/issues"
+  },
+  "homepage": "https://github.com/jorodev/fe-assignment#readme",
+  "devDependencies": {
+    "bootstrap": "^4.1.0",
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "jquery": "^3.3.1"
+  },
+  "dependencies": {
+    "popper.js": "^1.14.3"
+  }
+}
