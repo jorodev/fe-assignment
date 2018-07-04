@@ -68,3 +68,104 @@
         }
     }
 }
+
+.row {
+    margin: 10px 0 0 0;
+}
+
+.main-section {
+    padding: 10px;
+    min-height: 836px;
+    background-color: $light-green;
+    color: white;
+
+    .main-content {
+        width: 100%;
+        height: 100%;
+        background-color: $dim-dark-green;
+        padding: 0 30px;
+
+        h1 {
+            font-size: 48px;
+            font-family: Verdana, Geneva, sans-serif;
+            margin: 0;
+            padding: 17px 0 0 0;
+        }
+
+        .divider {
+            border-top: 1px solid black;
+	        border-bottom: 1px solid gray;
+        }
+
+        p {
+            text-indent: 30px;
+            font-family: Tahoma, Verdana, Segoe, sans-serif;
+            font-size: 12px;
+        }
+    }
+}
+
+.main-aside {
+    padding: 10px;
+    min-height: 836px;
+    background-color: $medium-dark-green;
+    color: white;
+
+    .side-content {
+        width: 100%;
+        height: 100%;
+        background-color: $solid-dark-green;
+        padding: 10px;
+
+        h4 {
+            font-size: 16px;
+            font-family: Tahoma, Verdana, Segoe, sans-serif;
+            text-transform: uppercase;
+        }
+
+        .share {
+            margin-bottom: 38px;
+
+            i {
+                margin-top: 10px;
+                background-color: gray;
+                padding: 12.5px;
+                font-size: 20px;
+                margin-right: 9px;
+            }
+        }
+
+        .categories {
+            margin-bottom: 20px;
+
+            a {
+                display: block;
+                color: white;
+                text-decoration: underline;
+                margin-left: 2px;
+            }
+        }
+
+        .stories {
+            margin-bottom: 20px;
+
+            .carousel {
+                margin-top: 20px;
+            }
+
+            .carousel-indicators {
+                .active {
+                    background-color: white;
+                }
+
+                li {
+                    top: 40px;
+                    width: 5px;
+                    height: 5px;
+                    border-radius: 50%;
+                    background-color: $light-green;
+                }
+            }
+        }
+    }
+}

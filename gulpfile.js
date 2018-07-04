@@ -33,7 +33,16 @@ gulp.task('serve', ['sass'], () => {
   ], ['sass']);
 
   gulp.watch('src/*.html').on('change', browserSync.reload);
-
 });
 
-gulp.task('default', ['js', 'serve'])
+gulp.task('font-awesome', () => {
+  return gulp.src('node_modules/font-awesome/css/font-awesome.min.css')
+  .pipe(gulp.dest('src/css'));
+})
+
+gulp.task('fonts', () => {
+  return gulp.src('node_modules/font-awesome/fonts/*')
+    .pipe(gulp.dest('src/fonts'));
+});
+
+gulp.task('default', ['js', 'serve', 'font-awesome', 'fonts'])
