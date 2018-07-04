@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/jorodev/fe-assignment#readme",
   "devDependencies": {
-    "bootstrap": "^4.1.0",
+    "bootstrap": "^4.1.1",
     "browser-sync": "^2.24.5",
     "font-awesome": "^4.7.0",
     "gulp": "^3.9.1",
@@ -25,6 +25,7 @@
     "jquery": "^3.3.1"
   },
   "dependencies": {
+    "hoek": "^5.0.3",
     "popper.js": "^1.14.3"
   }
 }
