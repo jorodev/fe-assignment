@@ -1,7 +1,9 @@
 @import 'variables';
 
 @media only screen and (min-width: 1200px) {
-    .container { max-width: 1280px; } 
+    .container { 
+        max-width: 1280px; 
+    } 
 }
 
 .fixed-logo {
@@ -13,6 +15,12 @@
         display: none;
     }
 }
+
+.row {
+    margin: 10px 0;
+}
+
+// Navigation
 
 .header {
     width: 100%;
@@ -80,9 +88,7 @@
     }
 }
 
-.row {
-    margin: 10px 0;
-}
+// Left column
 
 .main-section {
     padding: 10px;
@@ -115,6 +121,8 @@
         }
     }
 }
+
+// Right column
 
 .main-aside {
     padding: 10px;
@@ -180,6 +188,8 @@
         }
     }
 }
+
+// Footer
 
 .footer {
     width: 100%;
